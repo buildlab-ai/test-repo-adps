@@ -1,0 +1,27 @@
+{
+  "name": "test-repo-adps",
+  "version": "1.0.0",
+  "description": "Test repository for DevOps automation and CI/CD pipeline testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "lint": "eslint .",
+    "build": "echo 'Building application...'"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.54.0"
+  },
+  "keywords": [
+    "test",
+    "devops",
+    "cicd",
+    "automation"
+  ],
+  "author": "Adps AI",
+  "license": "MIT"
+}
